@@ -1,0 +1,25 @@
+Penjelasan apa saja yang saya ganti Rizqullah Zuhayr Alfito Khan (124)
+
+Kendaraan.java
+- menambahkan public abstract void Stop() dan juga public abstract void Brake()
+interface ShootAble
+- package yang sebelumnya public inter menjadi public interface 
+
+File interface Flyable
+- menghapus modifier private yang berada pada method fly() 
+
+Motor.java
+- menambahkan method start() dan brake()
+- mengubah pemanggilan get yang awalnya getname(), diubah menjadi getmodel() 
+
+Pesawat.java
+- mengubah pemanggilan get yang awalnya getname(), diubah menjadi getmodel() 
+-  mengoverride Start(), Stop(), dan fly().
+
+Tank.java
+- mengubah pemanggilan get yang awalnya getname(), diubah menjadi getmodel() 
+- saya menambahkan titik koma di method Brake() dan method stop()
+- ("Tank menembak" + vehi) menjadi ("Tank menembak " + vehicle);
+
+
+
